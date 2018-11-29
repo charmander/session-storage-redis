@@ -1,0 +1,31 @@
+{
+	"name": "@charmander/session-storage-redis",
+	"version": "0.1.0",
+	"description": "Redis storage for @charmander/session",
+	"bugs": "https://github.com/charmander/session-storage-redis/issues",
+	"license": "ISC",
+	"author": {
+		"name": "Charmander",
+		"email": "~@charmander.me",
+		"url": "https://charmander.me/"
+	},
+	"files": [
+		"index.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/charmander/session-storage-redis"
+	},
+	"devDependencies": {
+		"@charmander/eslint-config-base": "1.2.0",
+		"@charmander/session": "0.1.1",
+		"@charmander/test": "0.4.0-pre.1",
+		"redis": "2.8.0"
+	},
+	"scripts": {
+		"test": "node test"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	}
+}
